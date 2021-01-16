@@ -1,0 +1,22 @@
+@-moz-document url(about:home), url(about:newtab) {
+	body{
+		background: #1B2B34 !important;
+	}
+	.search-wrapper .logo-and-wordmark .wordmark{
+		fill: #fff !important;
+	}
+	.search-wrapper input{
+		background: #334755 var(--newtab-search-icon) 10px center no-repeat !important;
+		color: #fff !important;
+		padding-inline-start: 55px !important;
+	}
+	.search-wrapper .search-button{
+		fill: #fff !important;
+	}
+	.icon.icon-settings{
+		fill: #fff !important;
+	}
+	.prefs-button button:hover, .prefs-button button:focus{
+		background-color: #334755 !important;
+	}
+}
